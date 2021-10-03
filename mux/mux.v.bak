@@ -1,0 +1,13 @@
+module mux(input1, input2, signalchoice, out_put);
+	input [7:0] input1;
+	input [7:0] input2;
+	input signalchoice;
+	input [7:0] out_put;
+
+	always @(*) begin
+		if(signalchoice)
+			out_put <= input1;
+		else
+			out_put <= input2;
+	end
+endmodule

@@ -1,0 +1,5 @@
+set tool_name "ModelSim-Altera (Verilog)"
+set corner_file_list {
+	{{"Slow Model"} {extensor_de_sinal_simulation.vo extensor_de_sinal_simulation_v.sdo}}
+	{{"Fast Model"} {extensor_de_sinal_simulation_fast.vo extensor_de_sinal_simulation_v_fast.sdo}}
+}

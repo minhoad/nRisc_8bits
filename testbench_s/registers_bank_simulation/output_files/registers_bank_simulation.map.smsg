@@ -1,0 +1,8 @@
+Warning (10268): Verilog HDL information at registers_bank.v(18): always construct contains both blocking and non-blocking assignments
+Info (10281): Verilog HDL Declaration information at registers_bank_simulation.v(2): object "Clock" differs only in case from object "clock" in the same scope
+Info (10281): Verilog HDL Declaration information at registers_bank_simulation.v(2): object "RegWrite" differs only in case from object "regwrite" in the same scope
+Info (10281): Verilog HDL Declaration information at registers_bank_simulation.v(2): object "Reset" differs only in case from object "reset" in the same scope
+Info (10281): Verilog HDL Declaration information at registers_bank_simulation.v(3): object "Reg1_read" differs only in case from object "reg1_read" in the same scope
+Info (10281): Verilog HDL Declaration information at registers_bank_simulation.v(4): object "Reg2_read" differs only in case from object "reg2_read" in the same scope
+Info (10281): Verilog HDL Declaration information at registers_bank_simulation.v(5): object "Address" differs only in case from object "address" in the same scope
+Info (10281): Verilog HDL Declaration information at registers_bank_simulation.v(6): object "WriteData" differs only in case from object "writedata" in the same scope

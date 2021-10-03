@@ -1,0 +1,20 @@
+|unidade_de_controle
+Jump <= Decoder0.DB_MAX_OUTPUT_PORT_TYPE
+Opcode[0] => Decoder0.IN2
+Opcode[0] => ULAOp[0].DATAIN
+Opcode[1] => Decoder0.IN1
+Opcode[1] => ULAOp[1].DATAIN
+Opcode[2] => Decoder0.IN0
+Opcode[2] => ULAOp[2].DATAIN
+WE <= Decoder0.DB_MAX_OUTPUT_PORT_TYPE
+ULASrc <= WideOr0.DB_MAX_OUTPUT_PORT_TYPE
+ULAOp[0] <= Opcode[0].DB_MAX_OUTPUT_PORT_TYPE
+ULAOp[1] <= Opcode[1].DB_MAX_OUTPUT_PORT_TYPE
+ULAOp[2] <= Opcode[2].DB_MAX_OUTPUT_PORT_TYPE
+BEQ <= BEQ.DB_MAX_OUTPUT_PORT_TYPE
+RegSrc <= WideOr1.DB_MAX_OUTPUT_PORT_TYPE
+Reset <= <GND>
+PCWrite <= Decoder0.DB_MAX_OUTPUT_PORT_TYPE
+RegWrite <= WideOr2.DB_MAX_OUTPUT_PORT_TYPE
+
+

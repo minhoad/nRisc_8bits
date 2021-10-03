@@ -1,0 +1,15 @@
+module pc(Clock, PCWrite, Address, NextPC, Reset);
+	input PCWRITE, Clock, Reset;
+	input [7:0]NextPC;
+	
+	output reg [7:0]Address;
+	
+	always begin
+		@(posedge Clock)
+			if(PCWRITE & !Reset)
+				PC <= NextPC;
+			else
+				PC <= 0; 
+	end
+	
+endmodule

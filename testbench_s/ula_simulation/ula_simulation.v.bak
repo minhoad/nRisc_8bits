@@ -1,0 +1,18 @@
+module ula_simulation(input a, output b);
+	reg [2:0]ULAOp;
+	reg [7:0]Dado1;
+	reg [7:0]Dado2;
+	wire zero;
+	wire [7:0] Resultado;
+	
+	wire [2:0]ulaop;
+	wire [7:0] dado1;
+	wire [7:0] dado2;
+	
+	assign ulaop = ULAOp;
+	assign dado1 = Dado1;
+	assign dado2 = Dado2;
+	
+	ula ula1(ulaop,dado1,dado2,zero,Resultado);
+
+endmodule

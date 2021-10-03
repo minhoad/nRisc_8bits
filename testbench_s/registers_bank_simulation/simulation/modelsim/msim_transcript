@@ -1,0 +1,47 @@
+# Reading D:/quartus/modelsim_ase/tcl/vsim/pref.tcl 
+# do registers_bank_simulation_run_msim_rtl_verilog.do 
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Copying D:\quartus\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# ** Warning: Copied D:\quartus\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini.
+#          Updated modelsim.ini.
+# 
+# vlog -vlog01compat -work work +incdir+C:/Users/darme/Desktop/registers_bank {C:/Users/darme/Desktop/registers_bank/registers_bank.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module registers_bank
+# 
+# Top level modules:
+# 	registers_bank
+# vlog -vlog01compat -work work +incdir+C:/Users/darme/Desktop/registers_bank_simulation {C:/Users/darme/Desktop/registers_bank_simulation/registers_bank_simulation.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module registers_bank_simulation
+# 
+# Top level modules:
+# 	registers_bank_simulation
+# 
+vsim work.registers_bank_simulation
+# vsim work.registers_bank_simulation 
+# Loading work.registers_bank_simulation
+# Loading work.registers_bank
+add wave -position end  sim:/registers_bank_simulation/Clock
+add wave -position end  sim:/registers_bank_simulation/RegWrite
+add wave -position 1  sim:/registers_bank_simulation/Clock
+add wave -position end  sim:/registers_bank_simulation/Clock
+add wave -position end  sim:/registers_bank_simulation/RegWrite
+add wave -position end  sim:/registers_bank_simulation/Reset
+add wave -position end  sim:/registers_bank_simulation/Reg1_read
+add wave -position end  sim:/registers_bank_simulation/Reg2_read
+add wave -position end  sim:/registers_bank_simulation/Address
+add wave -position end  sim:/registers_bank_simulation/WriteData
+add wave -position end  sim:/registers_bank_simulation/Data1
+add wave -position end  sim:/registers_bank_simulation/Data2
+run
+# ** Note: $finish    : C:/Users/darme/Desktop/registers_bank_simulation/registers_bank_simulation.v(44)
+#    Time: 90 ps  Iteration: 0  Instance: /registers_bank_simulation
+# 1
+# Break in Module registers_bank_simulation at C:/Users/darme/Desktop/registers_bank_simulation/registers_bank_simulation.v line 44
+write format wave -window .main_pane.wave.interior.cs.body.pw.wf C:/Users/darme/Desktop/registers_bank_simulation/simulation/modelsim/wave.do

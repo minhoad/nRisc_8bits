@@ -1,0 +1,3 @@
+Info (10281): Verilog HDL Declaration information at ula_simulation.v(2): object "ULAOp" differs only in case from object "ulaop" in the same scope
+Info (10281): Verilog HDL Declaration information at ula_simulation.v(3): object "Dado1" differs only in case from object "dado1" in the same scope
+Info (10281): Verilog HDL Declaration information at ula_simulation.v(4): object "Dado2" differs only in case from object "dado2" in the same scope

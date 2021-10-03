@@ -1,0 +1,11 @@
+module ula(ULAOp,Dado1,Dado2,zero,Resultado);
+//Dado 2 é a saida do mux
+	input [2:0]ULAOp;
+	input [7:0]Dado1;
+	input [7:0]Dado2;
+	
+	output reg zero;
+	output reg Resultado;
+
+
+endmodule

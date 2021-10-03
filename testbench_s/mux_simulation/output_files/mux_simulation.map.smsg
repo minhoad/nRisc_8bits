@@ -1,0 +1,3 @@
+Info (10281): Verilog HDL Declaration information at mux_simulation.v(2): object "input1" differs only in case from object "INPUT1" in the same scope
+Info (10281): Verilog HDL Declaration information at mux_simulation.v(3): object "input2" differs only in case from object "INPUT2" in the same scope
+Info (10281): Verilog HDL Declaration information at mux_simulation.v(4): object "signalchoice" differs only in case from object "SIGNALCHOICE" in the same scope

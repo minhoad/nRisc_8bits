@@ -1,0 +1,45 @@
+# Reading D:/quartus/modelsim_ase/tcl/vsim/pref.tcl 
+# do pc_simulation_run_msim_rtl_verilog.do 
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Copying D:\quartus\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# ** Warning: Copied D:\quartus\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini.
+#          Updated modelsim.ini.
+# 
+# vlog -vlog01compat -work work +incdir+C:/Users/darme/Desktop/pc {C:/Users/darme/Desktop/pc/pc.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module pc
+# 
+# Top level modules:
+# 	pc
+# vlog -vlog01compat -work work +incdir+C:/Users/darme/Desktop/pc_simulation {C:/Users/darme/Desktop/pc_simulation/pc_simulation.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module pc_simulation
+# 
+# Top level modules:
+# 	pc_simulation
+# 
+vsim work.pc_simulation
+# vsim work.pc_simulation 
+# Loading work.pc_simulation
+# Loading work.pc
+vsim work.pc_simulation
+# vsim work.pc_simulation 
+# Loading work.pc_simulation
+# Loading work.pc
+add wave -position end  sim:/pc_simulation/Clock
+add wave -position end  sim:/pc_simulation/PCWrite
+add wave -position end  sim:/pc_simulation/NextPC
+add wave -position end  sim:/pc_simulation/Address
+add wave -position end  sim:/pc_simulation/Reset
+run
+# ** Note: $finish    : C:/Users/darme/Desktop/pc_simulation/pc_simulation.v(30)
+#    Time: 70 ps  Iteration: 0  Instance: /pc_simulation
+# 1
+# Break in Module pc_simulation at C:/Users/darme/Desktop/pc_simulation/pc_simulation.v line 30
+write format wave -window .main_pane.wave.interior.cs.body.pw.wf C:/Users/darme/Desktop/pc_simulation/simulation/modelsim/wave.do
+write format wave -window .main_pane.wave.interior.cs.body.pw.wf C:/Users/darme/Desktop/pc_simulation/simulation/modelsim/wave.do

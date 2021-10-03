@@ -1,0 +1,71 @@
+|memory_of_instruction_simulation
+a => ~NO_FANOUT~
+b <= <GND>
+clock => clock.IN1
+
+
+|memory_of_instruction_simulation|memory_of_instruction:mi
+Clock => Memory.we_a.CLK
+Clock => Memory.waddr_a[5].CLK
+Clock => Memory.waddr_a[4].CLK
+Clock => Memory.waddr_a[3].CLK
+Clock => Memory.waddr_a[2].CLK
+Clock => Memory.waddr_a[1].CLK
+Clock => Memory.waddr_a[0].CLK
+Clock => Memory.data_a[7].CLK
+Clock => Memory.data_a[6].CLK
+Clock => Memory.data_a[5].CLK
+Clock => Memory.data_a[4].CLK
+Clock => Memory.data_a[3].CLK
+Clock => Memory.data_a[2].CLK
+Clock => Memory.data_a[1].CLK
+Clock => Memory.data_a[0].CLK
+Clock => Memory.CLK0
+Address[0] => Memory.waddr_a[0].DATAIN
+Address[0] => Memory.WADDR
+Address[0] => Memory.RADDR
+Address[1] => Memory.waddr_a[1].DATAIN
+Address[1] => Memory.WADDR1
+Address[1] => Memory.RADDR1
+Address[2] => Memory.waddr_a[2].DATAIN
+Address[2] => Memory.WADDR2
+Address[2] => Memory.RADDR2
+Address[3] => Memory.waddr_a[3].DATAIN
+Address[3] => Memory.WADDR3
+Address[3] => Memory.RADDR3
+Address[4] => Memory.waddr_a[4].DATAIN
+Address[4] => Memory.WADDR4
+Address[4] => Memory.RADDR4
+Address[5] => Memory.waddr_a[5].DATAIN
+Address[5] => Memory.WADDR5
+Address[5] => Memory.RADDR5
+Address[6] => ~NO_FANOUT~
+Address[7] => ~NO_FANOUT~
+Instruction[0] <= Memory.DATAOUT
+Instruction[1] <= Memory.DATAOUT1
+Instruction[2] <= Memory.DATAOUT2
+Instruction[3] <= Memory.DATAOUT3
+Instruction[4] <= Memory.DATAOUT4
+Instruction[5] <= Memory.DATAOUT5
+Instruction[6] <= Memory.DATAOUT6
+Instruction[7] <= Memory.DATAOUT7
+Reset => Memory.DATAA
+Data_in[0] => Memory.DATAB
+Data_in[1] => Memory.DATAB
+Data_in[2] => Memory.DATAB
+Data_in[3] => Memory.DATAB
+Data_in[4] => Memory.DATAB
+Data_in[5] => Memory.DATAB
+Data_in[6] => Memory.DATAB
+Data_in[7] => Memory.DATAB
+WE => Memory.OUTPUTSELECT
+WE => Memory.OUTPUTSELECT
+WE => Memory.OUTPUTSELECT
+WE => Memory.OUTPUTSELECT
+WE => Memory.OUTPUTSELECT
+WE => Memory.OUTPUTSELECT
+WE => Memory.OUTPUTSELECT
+WE => Memory.OUTPUTSELECT
+WE => Memory.OUTPUTSELECT
+
+

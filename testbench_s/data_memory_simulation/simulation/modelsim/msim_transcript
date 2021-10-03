@@ -1,0 +1,38 @@
+# Reading D:/quartus/modelsim_ase/tcl/vsim/pref.tcl 
+# do data_memory_simulation_run_msim_rtl_verilog.do 
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Copying D:\quartus\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# ** Warning: Copied D:\quartus\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini.
+#          Updated modelsim.ini.
+# 
+# vlog -vlog01compat -work work +incdir+C:/Users/darme/Desktop/data_memory {C:/Users/darme/Desktop/data_memory/data_memory.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module data_memory
+# 
+# Top level modules:
+# 	data_memory
+# vlog -vlog01compat -work work +incdir+C:/Users/darme/Desktop/data_memory_simulation {C:/Users/darme/Desktop/data_memory_simulation/data_memory_simulation.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module data_memory_simulation
+# 
+# Top level modules:
+# 	data_memory_simulation
+# 
+vsim work.data_memory_simulation
+# vsim work.data_memory_simulation 
+# Loading work.data_memory_simulation
+# Loading work.data_memory
+add wave -position end  sim:/data_memory_simulation/Clock
+add wave -position end  sim:/data_memory_simulation/MemWrite
+add wave -position end  sim:/data_memory_simulation/Address
+add wave -position end  sim:/data_memory_simulation/WriteData
+add wave -position end  sim:/data_memory_simulation/Data
+add wave -position end  sim:/data_memory_simulation/Reset
+run
+write format wave -window .main_pane.wave.interior.cs.body.pw.wf C:/Users/darme/Desktop/data_memory_simulation/simulation/modelsim/wave.do
+write format wave -window .main_pane.wave.interior.cs.body.pw.wf C:/Users/darme/Desktop/data_memory_simulation/simulation/modelsim/wave.do

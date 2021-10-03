@@ -1,0 +1,29 @@
+|pc
+Clock => Address[0]~reg0.CLK
+Clock => Address[1]~reg0.CLK
+Clock => Address[2]~reg0.CLK
+Clock => Address[3]~reg0.CLK
+Clock => Address[4]~reg0.CLK
+Clock => Address[5]~reg0.CLK
+Clock => Address[6]~reg0.CLK
+Clock => Address[7]~reg0.CLK
+PCWrite => always0.IN0
+Address[0] <= Address[0]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+Address[1] <= Address[1]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+Address[2] <= Address[2]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+Address[3] <= Address[3]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+Address[4] <= Address[4]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+Address[5] <= Address[5]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+Address[6] <= Address[6]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+Address[7] <= Address[7]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+NextPC[0] => Address.DATAB
+NextPC[1] => Address.DATAB
+NextPC[2] => Address.DATAB
+NextPC[3] => Address.DATAB
+NextPC[4] => Address.DATAB
+NextPC[5] => Address.DATAB
+NextPC[6] => Address.DATAB
+NextPC[7] => Address.DATAB
+Reset => always0.IN1
+
+

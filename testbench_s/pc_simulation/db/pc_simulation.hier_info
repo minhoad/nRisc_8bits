@@ -1,0 +1,41 @@
+|pc_simulation
+a => ~NO_FANOUT~
+b => ~NO_FANOUT~
+
+
+|pc_simulation|pc:pc_aux
+Clock => Address[0]~reg0.CLK
+Clock => Address[1]~reg0.CLK
+Clock => Address[2]~reg0.CLK
+Clock => Address[3]~reg0.CLK
+Clock => Address[4]~reg0.CLK
+Clock => Address[5]~reg0.CLK
+Clock => Address[6]~reg0.CLK
+Clock => Address[7]~reg0.CLK
+PCWrite => ~NO_FANOUT~
+Address[0] <= Address[0]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+Address[1] <= Address[1]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+Address[2] <= Address[2]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+Address[3] <= Address[3]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+Address[4] <= Address[4]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+Address[5] <= Address[5]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+Address[6] <= Address[6]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+Address[7] <= Address[7]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+NextPC[0] => Address.DATAA
+NextPC[1] => Address.DATAA
+NextPC[2] => Address.DATAA
+NextPC[3] => Address.DATAA
+NextPC[4] => Address.DATAA
+NextPC[5] => Address.DATAA
+NextPC[6] => Address.DATAA
+NextPC[7] => Address.DATAA
+Reset => Address.OUTPUTSELECT
+Reset => Address.OUTPUTSELECT
+Reset => Address.OUTPUTSELECT
+Reset => Address.OUTPUTSELECT
+Reset => Address.OUTPUTSELECT
+Reset => Address.OUTPUTSELECT
+Reset => Address.OUTPUTSELECT
+Reset => Address.OUTPUTSELECT
+
+

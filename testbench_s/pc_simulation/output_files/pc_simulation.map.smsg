@@ -1,0 +1,4 @@
+Info (10281): Verilog HDL Declaration information at pc_simulation.v(2): object "PCWrite" differs only in case from object "pcwrite" in the same scope
+Info (10281): Verilog HDL Declaration information at pc_simulation.v(2): object "Clock" differs only in case from object "clock" in the same scope
+Info (10281): Verilog HDL Declaration information at pc_simulation.v(2): object "Reset" differs only in case from object "reset" in the same scope
+Info (10281): Verilog HDL Declaration information at pc_simulation.v(3): object "NextPC" differs only in case from object "nextpc" in the same scope

@@ -1,0 +1,41 @@
+# Reading D:/quartus/modelsim_ase/tcl/vsim/pref.tcl 
+# do memory_of_instruction_simulation_run_msim_rtl_verilog.do 
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Copying D:\quartus\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# ** Warning: Copied D:\quartus\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini.
+#          Updated modelsim.ini.
+# 
+# vlog -vlog01compat -work work +incdir+C:/Users/darme/Desktop/memory_of_instruction_simulation {C:/Users/darme/Desktop/memory_of_instruction_simulation/memory_of_instruction_simulation.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module memory_of_instruction_simulation
+# 
+# Top level modules:
+# 	memory_of_instruction_simulation
+# vlog -vlog01compat -work work +incdir+C:/Users/darme/Desktop/memory_of_instruction {C:/Users/darme/Desktop/memory_of_instruction/memory_of_instruction.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module memory_of_instruction
+# 
+# Top level modules:
+# 	memory_of_instruction
+# 
+vsim work.memory_of_instruction_simulation
+# vsim work.memory_of_instruction_simulation 
+# Loading work.memory_of_instruction_simulation
+# Loading work.memory_of_instruction
+add wave -position end  sim:/memory_of_instruction_simulation/Clock
+add wave -position end  sim:/memory_of_instruction_simulation/Address
+add wave -position end  sim:/memory_of_instruction_simulation/Data_in
+add wave -position end  sim:/memory_of_instruction_simulation/Instruction
+add wave -position end  sim:/memory_of_instruction_simulation/WE
+add wave -position end  sim:/memory_of_instruction_simulation/Reset
+run
+run
+run
+run
+run
+write format wave -window .main_pane.wave.interior.cs.body.pw.wf C:/Users/darme/Desktop/memory_of_instruction_simulation/simulation/modelsim/wave.do

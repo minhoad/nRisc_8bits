@@ -1,0 +1,45 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\Users\darme\Desktop\memory_of_instruction_simulation\simulation\modelsim
+vmemory_of_instruction
+!i10b 1
+!s100 OIzX1SEl`UfWfUQFM71J71
+I4af9L2SOYfUV9WVC8F;5N1
+V73HSo6RnKfUBT@ZPCGcF32
+Z1 dC:\Users\darme\Desktop\memory_of_instruction_simulation\simulation\modelsim
+w1628820222
+8C:/Users/darme/Desktop/memory_of_instruction/memory_of_instruction.v
+FC:/Users/darme/Desktop/memory_of_instruction/memory_of_instruction.v
+L0 1
+Z2 OV;L;10.1d;51
+r1
+!s85 0
+31
+!s108 1628821165.534000
+!s107 C:/Users/darme/Desktop/memory_of_instruction/memory_of_instruction.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/darme/Desktop/memory_of_instruction|C:/Users/darme/Desktop/memory_of_instruction/memory_of_instruction.v|
+!s101 -O0
+Z3 o-vlog01compat -work work -O0
+!s92 -vlog01compat -work work +incdir+C:/Users/darme/Desktop/memory_of_instruction -O0
+vmemory_of_instruction_simulation
+IC>3BOidcYUO;BNi5P4Uc=1
+V4K;Rl?QAd]<Rie`Qcz2;42
+R1
+w1628819428
+8C:/Users/darme/Desktop/memory_of_instruction_simulation/memory_of_instruction_simulation.v
+FC:/Users/darme/Desktop/memory_of_instruction_simulation/memory_of_instruction_simulation.v
+L0 1
+R2
+r1
+31
+R3
+!i10b 1
+!s100 NHB<_zONBU_C@Q^4Se1oC1
+!s85 0
+!s108 1628821165.467000
+!s107 C:/Users/darme/Desktop/memory_of_instruction_simulation/memory_of_instruction_simulation.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/darme/Desktop/memory_of_instruction_simulation|C:/Users/darme/Desktop/memory_of_instruction_simulation/memory_of_instruction_simulation.v|
+!s101 -O0
+!s92 -vlog01compat -work work +incdir+C:/Users/darme/Desktop/memory_of_instruction_simulation -O0

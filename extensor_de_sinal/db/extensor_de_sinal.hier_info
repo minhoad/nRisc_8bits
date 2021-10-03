@@ -1,0 +1,41 @@
+|extensor_de_sinal
+instruction_received[0] => Equal0.IN2
+instruction_received[0] => Equal1.IN2
+instruction_received[0] => Equal2.IN0
+instruction_received[0] => Equal3.IN2
+instruction_received[0] => Equal4.IN1
+instruction_received[0] => Equal5.IN2
+instruction_received[1] => Equal0.IN1
+instruction_received[1] => Equal1.IN0
+instruction_received[1] => Equal2.IN2
+instruction_received[1] => Equal3.IN1
+instruction_received[1] => Equal4.IN2
+instruction_received[1] => Equal5.IN1
+instruction_received[2] => Equal0.IN0
+instruction_received[2] => Equal1.IN1
+instruction_received[2] => Equal2.IN1
+instruction_received[2] => Equal3.IN0
+instruction_received[2] => Equal4.IN0
+instruction_received[2] => Equal5.IN0
+instruction_received[3] => immediate.DATAB
+instruction_received[4] => immediate.DATAB
+instruction_received[4] => immediate.DATAB
+instruction_received[5] => immediate.DATAB
+instruction_received[5] => immediate.DATAB
+instruction_received[5] => immediate.DATAB
+instruction_received[6] => immediate.DATAB
+instruction_received[6] => immediate.DATAB
+instruction_received[6] => immediate.DATAB
+instruction_received[7] => immediate.DATAB
+instruction_received[7] => immediate.DATAB
+instruction_received[7] => immediate.DATAB
+immediate[0] <= immediate.DB_MAX_OUTPUT_PORT_TYPE
+immediate[1] <= immediate.DB_MAX_OUTPUT_PORT_TYPE
+immediate[2] <= immediate.DB_MAX_OUTPUT_PORT_TYPE
+immediate[3] <= immediate.DB_MAX_OUTPUT_PORT_TYPE
+immediate[4] <= immediate.DB_MAX_OUTPUT_PORT_TYPE
+immediate[5] <= <GND>
+immediate[6] <= <GND>
+immediate[7] <= <GND>
+
+

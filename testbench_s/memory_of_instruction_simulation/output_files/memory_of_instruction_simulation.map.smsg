@@ -1,0 +1,5 @@
+Info (10281): Verilog HDL Declaration information at memory_of_instruction_simulation.v(1): object "clock" differs only in case from object "Clock" in the same scope
+Info (10281): Verilog HDL Declaration information at memory_of_instruction_simulation.v(2): object "Reset" differs only in case from object "reset" in the same scope
+Info (10281): Verilog HDL Declaration information at memory_of_instruction_simulation.v(2): object "WE" differs only in case from object "we" in the same scope
+Info (10281): Verilog HDL Declaration information at memory_of_instruction_simulation.v(3): object "Address" differs only in case from object "address" in the same scope
+Info (10281): Verilog HDL Declaration information at memory_of_instruction_simulation.v(4): object "Data_in" differs only in case from object "data_in" in the same scope

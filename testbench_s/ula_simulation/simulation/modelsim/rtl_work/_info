@@ -1,0 +1,45 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\Users\darme\Desktop\ula_simulation\simulation\modelsim
+vula
+IdVbIil6n0R`P?NE24n5Yn0
+VzG8dgmO0COOM2ggC[O3K_0
+Z1 dC:\Users\darme\Desktop\ula_simulation\simulation\modelsim
+w1630009969
+8C:/Users/darme/Desktop/ula/ula.v
+FC:/Users/darme/Desktop/ula/ula.v
+L0 1
+Z2 OV;L;10.1d;51
+r1
+31
+Z3 o-vlog01compat -work work -O0
+!i10b 1
+!s100 6Yj1RK>Q4AXTHNbK85PMI1
+!s85 0
+!s108 1630010451.929000
+!s107 C:/Users/darme/Desktop/ula/ula.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/darme/Desktop/ula|C:/Users/darme/Desktop/ula/ula.v|
+!s101 -O0
+!s92 -vlog01compat -work work +incdir+C:/Users/darme/Desktop/ula -O0
+vula_simulation
+!i10b 1
+!s100 33Q9CPh:ERHH@^bj5d[9F2
+I2^2kCfKM022h_Bh:a0V6Z1
+VmznN2Kj9X0W^YRA@@`eN91
+R1
+w1630010421
+8C:/Users/darme/Desktop/ula_simulation/ula_simulation.v
+FC:/Users/darme/Desktop/ula_simulation/ula_simulation.v
+L0 1
+R2
+r1
+!s85 0
+31
+!s108 1630010451.994000
+!s107 C:/Users/darme/Desktop/ula_simulation/ula_simulation.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/darme/Desktop/ula_simulation|C:/Users/darme/Desktop/ula_simulation/ula_simulation.v|
+!s101 -O0
+R3
+!s92 -vlog01compat -work work +incdir+C:/Users/darme/Desktop/ula_simulation -O0

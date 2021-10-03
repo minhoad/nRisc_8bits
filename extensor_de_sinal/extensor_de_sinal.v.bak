@@ -1,0 +1,12 @@
+module extensor_de_sinal(instruction_received, immediate);
+	input [7:0] instruction_received;
+	output [7:0] immediate;
+	
+	reg [2:0] opcode = instruction_reiceved [2:0];
+	
+	assign immediate = 
+	(opcode == 3'b000 | opcode == 3'b010) ?  instruction_received[7:5] :
+	(opcode == 3'b001 | opcode == 3'b100) ?  instruction_received[7:4] :  
+	(opcode == 3'b101 | opcode == 3'b110) ?  instruction_received[7:3] : 8'b00000000;
+
+endmodule

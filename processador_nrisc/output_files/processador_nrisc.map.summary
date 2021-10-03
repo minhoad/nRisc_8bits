@@ -1,0 +1,14 @@
+Analysis & Synthesis Status : Successful - Fri Sep 10 02:02:14 2021
+Quartus II 64-Bit Version : 13.0.1 Build 232 06/12/2013 SP 1 SJ Web Edition
+Revision Name : processador_nrisc
+Top-level Entity Name : processador_nrisc
+Family : Cyclone II
+Total logic elements : 3,822
+    Total combinational functions : 1,788
+    Dedicated logic registers : 2,070
+Total registers : 2070
+Total pins : 10
+Total virtual pins : 0
+Total memory bits : 0
+Embedded Multiplier 9-bit elements : 0
+Total PLLs : 0

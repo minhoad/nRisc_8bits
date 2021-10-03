@@ -1,0 +1,185 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\Users\darme\Desktop\Aula-14-Lab-AOC1_Darmes-Araujo-Dias\processador_nrisc\simulation\modelsim
+vdata_memory
+!i10b 1
+!s100 g:3dO9ZTOhaJMZ]mTVafN2
+I?KlOZKS9UH]IT2mFBjH8e0
+Vhb`I?;0bMPi_k?0^DDiaL2
+Z1 dC:\Users\darme\Desktop\Aula-14-Lab-AOC1_Darmes-Araujo-Dias\processador_nrisc\simulation\modelsim
+w1631239527
+8C:/Users/darme/Desktop/Aula-14-Lab-AOC1_Darmes-Araujo-Dias/processador_nrisc/data_memory.v
+FC:/Users/darme/Desktop/Aula-14-Lab-AOC1_Darmes-Araujo-Dias/processador_nrisc/data_memory.v
+L0 1
+Z2 OV;L;10.1d;51
+r1
+!s85 0
+31
+!s108 1631289155.225000
+!s107 C:/Users/darme/Desktop/Aula-14-Lab-AOC1_Darmes-Araujo-Dias/processador_nrisc/data_memory.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/darme/Desktop/Aula-14-Lab-AOC1_Darmes-Araujo-Dias/processador_nrisc|C:/Users/darme/Desktop/Aula-14-Lab-AOC1_Darmes-Araujo-Dias/processador_nrisc/data_memory.v|
+!s101 -O0
+Z3 o-vlog01compat -work work -O0
+Z4 !s92 -vlog01compat -work work +incdir+C:/Users/darme/Desktop/Aula-14-Lab-AOC1_Darmes-Araujo-Dias/processador_nrisc -O0
+vextensor_de_sinal
+IYDH062j3gG:EKgO9VKRgF0
+V8T::SImFSennn^>dEmCzP1
+R1
+w1630627958
+8C:/Users/darme/Desktop/Aula-14-Lab-AOC1_Darmes-Araujo-Dias/processador_nrisc/extensor_de_sinal.v
+FC:/Users/darme/Desktop/Aula-14-Lab-AOC1_Darmes-Araujo-Dias/processador_nrisc/extensor_de_sinal.v
+L0 1
+R2
+r1
+31
+R3
+R4
+!i10b 1
+!s100 l`CHmJG1Ui>7G>4?HlmGd3
+!s85 0
+!s108 1631289155.042000
+!s107 C:/Users/darme/Desktop/Aula-14-Lab-AOC1_Darmes-Araujo-Dias/processador_nrisc/extensor_de_sinal.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/darme/Desktop/Aula-14-Lab-AOC1_Darmes-Araujo-Dias/processador_nrisc|C:/Users/darme/Desktop/Aula-14-Lab-AOC1_Darmes-Araujo-Dias/processador_nrisc/extensor_de_sinal.v|
+!s101 -O0
+vmemory_of_instruction
+IL33mkEX=K5hki:k[5m@CW3
+V73HSo6RnKfUBT@ZPCGcF32
+R1
+w1631224449
+8C:/Users/darme/Desktop/Aula-14-Lab-AOC1_Darmes-Araujo-Dias/processador_nrisc/memory_of_instruction.v
+FC:/Users/darme/Desktop/Aula-14-Lab-AOC1_Darmes-Araujo-Dias/processador_nrisc/memory_of_instruction.v
+L0 1
+R2
+r1
+31
+R3
+R4
+!i10b 1
+!s100 g1?_ElE^Mo4Y<4H41cIl:3
+!s85 0
+!s108 1631289155.165000
+!s107 C:/Users/darme/Desktop/Aula-14-Lab-AOC1_Darmes-Araujo-Dias/processador_nrisc/memory_of_instruction.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/darme/Desktop/Aula-14-Lab-AOC1_Darmes-Araujo-Dias/processador_nrisc|C:/Users/darme/Desktop/Aula-14-Lab-AOC1_Darmes-Araujo-Dias/processador_nrisc/memory_of_instruction.v|
+!s101 -O0
+vmux
+IAVmQ_FEFKkgQV_b_gW[WH3
+V>l6Jc;b4[U3QP4zcJT^ok1
+R1
+w1630611036
+8C:/Users/darme/Desktop/Aula-14-Lab-AOC1_Darmes-Araujo-Dias/processador_nrisc/mux.v
+FC:/Users/darme/Desktop/Aula-14-Lab-AOC1_Darmes-Araujo-Dias/processador_nrisc/mux.v
+L0 1
+R2
+r1
+31
+R3
+R4
+!i10b 1
+!s100 EJO?Z@ZcQe4MGIYEnS[@42
+!s85 0
+!s108 1631289154.981000
+!s107 C:/Users/darme/Desktop/Aula-14-Lab-AOC1_Darmes-Araujo-Dias/processador_nrisc/mux.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/darme/Desktop/Aula-14-Lab-AOC1_Darmes-Araujo-Dias/processador_nrisc|C:/Users/darme/Desktop/Aula-14-Lab-AOC1_Darmes-Araujo-Dias/processador_nrisc/mux.v|
+!s101 -O0
+vpc
+IdnSVchR9JnLH]eSWbJX@o3
+V:YI67ehnYjIb4I18BbZ[Y0
+R1
+w1628732117
+8C:/Users/darme/Desktop/Aula-14-Lab-AOC1_Darmes-Araujo-Dias/processador_nrisc/pc.v
+FC:/Users/darme/Desktop/Aula-14-Lab-AOC1_Darmes-Araujo-Dias/processador_nrisc/pc.v
+L0 1
+R2
+r1
+31
+R3
+R4
+!i10b 1
+!s100 ]XNNKI_MD2QldOn5nEzhH3
+!s85 0
+!s108 1631289154.919000
+!s107 C:/Users/darme/Desktop/Aula-14-Lab-AOC1_Darmes-Araujo-Dias/processador_nrisc/pc.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/darme/Desktop/Aula-14-Lab-AOC1_Darmes-Araujo-Dias/processador_nrisc|C:/Users/darme/Desktop/Aula-14-Lab-AOC1_Darmes-Araujo-Dias/processador_nrisc/pc.v|
+!s101 -O0
+vprocessador_nrisc
+IX?Db1XkUl]2<geJE1Doc;0
+V=dFHO1=N]_F2b4L6E?2_g1
+R1
+w1631247033
+8C:/Users/darme/Desktop/Aula-14-Lab-AOC1_Darmes-Araujo-Dias/processador_nrisc/processador_nrisc.v
+FC:/Users/darme/Desktop/Aula-14-Lab-AOC1_Darmes-Araujo-Dias/processador_nrisc/processador_nrisc.v
+L0 1
+R2
+r1
+31
+R3
+R4
+!i10b 1
+!s100 H@1fL618V<@HOWN5zR@YN2
+!s85 0
+!s108 1631289155.100000
+!s107 C:/Users/darme/Desktop/Aula-14-Lab-AOC1_Darmes-Araujo-Dias/processador_nrisc/processador_nrisc.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/darme/Desktop/Aula-14-Lab-AOC1_Darmes-Araujo-Dias/processador_nrisc|C:/Users/darme/Desktop/Aula-14-Lab-AOC1_Darmes-Araujo-Dias/processador_nrisc/processador_nrisc.v|
+!s101 -O0
+vregisters_bank
+I5jF;jLja9nmDoWaoMf5UL3
+VM9;Qa<3Zll5GIQQ?dRH?32
+R1
+w1631249171
+8C:/Users/darme/Desktop/Aula-14-Lab-AOC1_Darmes-Araujo-Dias/processador_nrisc/registers_bank.v
+FC:/Users/darme/Desktop/Aula-14-Lab-AOC1_Darmes-Araujo-Dias/processador_nrisc/registers_bank.v
+L0 1
+R2
+r1
+31
+R3
+R4
+!i10b 1
+!s100 [Tf14D1OI?3`SamnFHcPa0
+!s85 0
+!s108 1631289154.856000
+!s107 C:/Users/darme/Desktop/Aula-14-Lab-AOC1_Darmes-Araujo-Dias/processador_nrisc/registers_bank.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/darme/Desktop/Aula-14-Lab-AOC1_Darmes-Araujo-Dias/processador_nrisc|C:/Users/darme/Desktop/Aula-14-Lab-AOC1_Darmes-Araujo-Dias/processador_nrisc/registers_bank.v|
+!s101 -O0
+vula
+IN_Lz^ZWd>Zadf:G]eocl71
+VzG8dgmO0COOM2ggC[O3K_0
+R1
+w1631245973
+8C:/Users/darme/Desktop/Aula-14-Lab-AOC1_Darmes-Araujo-Dias/processador_nrisc/ula.v
+FC:/Users/darme/Desktop/Aula-14-Lab-AOC1_Darmes-Araujo-Dias/processador_nrisc/ula.v
+L0 1
+R2
+r1
+31
+R3
+R4
+!i10b 1
+!s100 m5O5fSR;VC?GYn^noQCR81
+!s85 0
+!s108 1631289154.765000
+!s107 C:/Users/darme/Desktop/Aula-14-Lab-AOC1_Darmes-Araujo-Dias/processador_nrisc/ula.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/darme/Desktop/Aula-14-Lab-AOC1_Darmes-Araujo-Dias/processador_nrisc|C:/Users/darme/Desktop/Aula-14-Lab-AOC1_Darmes-Araujo-Dias/processador_nrisc/ula.v|
+!s101 -O0
+vunidade_de_controle
+IVl]72RjALe99JO3?@Cg6K0
+V7:iVG7OGT[lQMml5UYzd;0
+R1
+w1631250035
+8C:/Users/darme/Desktop/Aula-14-Lab-AOC1_Darmes-Araujo-Dias/processador_nrisc/unidade_de_controle.v
+FC:/Users/darme/Desktop/Aula-14-Lab-AOC1_Darmes-Araujo-Dias/processador_nrisc/unidade_de_controle.v
+L0 1
+R2
+r1
+31
+R3
+R4
+!i10b 1
+!s100 3BR9`<nPdB9m8X`WXzD2F3
+!s85 0
+!s108 1631289154.697000
+!s107 C:/Users/darme/Desktop/Aula-14-Lab-AOC1_Darmes-Araujo-Dias/processador_nrisc/unidade_de_controle.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/darme/Desktop/Aula-14-Lab-AOC1_Darmes-Araujo-Dias/processador_nrisc|C:/Users/darme/Desktop/Aula-14-Lab-AOC1_Darmes-Araujo-Dias/processador_nrisc/unidade_de_controle.v|
+!s101 -O0

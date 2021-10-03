@@ -1,0 +1,40 @@
+|mux_simulation
+a => ~NO_FANOUT~
+b => ~NO_FANOUT~
+
+
+|mux_simulation|mux:mux_test
+input1[0] => out_put.DATAB
+input1[1] => out_put.DATAB
+input1[2] => out_put.DATAB
+input1[3] => out_put.DATAB
+input1[4] => out_put.DATAB
+input1[5] => out_put.DATAB
+input1[6] => out_put.DATAB
+input1[7] => out_put.DATAB
+input2[0] => out_put.DATAA
+input2[1] => out_put.DATAA
+input2[2] => out_put.DATAA
+input2[3] => out_put.DATAA
+input2[4] => out_put.DATAA
+input2[5] => out_put.DATAA
+input2[6] => out_put.DATAA
+input2[7] => out_put.DATAA
+signalchoice => out_put.OUTPUTSELECT
+signalchoice => out_put.OUTPUTSELECT
+signalchoice => out_put.OUTPUTSELECT
+signalchoice => out_put.OUTPUTSELECT
+signalchoice => out_put.OUTPUTSELECT
+signalchoice => out_put.OUTPUTSELECT
+signalchoice => out_put.OUTPUTSELECT
+signalchoice => out_put.OUTPUTSELECT
+out_put[0] <= out_put.DB_MAX_OUTPUT_PORT_TYPE
+out_put[1] <= out_put.DB_MAX_OUTPUT_PORT_TYPE
+out_put[2] <= out_put.DB_MAX_OUTPUT_PORT_TYPE
+out_put[3] <= out_put.DB_MAX_OUTPUT_PORT_TYPE
+out_put[4] <= out_put.DB_MAX_OUTPUT_PORT_TYPE
+out_put[5] <= out_put.DB_MAX_OUTPUT_PORT_TYPE
+out_put[6] <= out_put.DB_MAX_OUTPUT_PORT_TYPE
+out_put[7] <= out_put.DB_MAX_OUTPUT_PORT_TYPE
+
+

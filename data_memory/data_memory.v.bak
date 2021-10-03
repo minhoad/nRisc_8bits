@@ -1,0 +1,27 @@
+module data_memory(Clock, Address, WriteData, Data, MemWrite, ReadMem, Reset);
+	input Clock, MemWrite, ReadMem, Reset;
+	input [7:0] Address, WriteData; // Endereço Escrever dado
+	
+	output reg[7:0]Data; // Dado lido
+	
+	integer i;
+	reg [7:0]Memory[1:0]; // só possuo 2 regs
+	
+	initial begin 
+		for(i=0;i<8;i=i+1)
+			Memory[i] = i;
+	end
+	
+	always begin
+		@(posedge Clock)
+			if(MemWrite & !ReadMem)//Escreve na memória
+				WriteData => Memory[Address];
+			if(!MemWrite & ReadMem)//Le da memória
+				Memory[Address] => Data;
+	end
+	
+endmodule
+
+	
+	
+	

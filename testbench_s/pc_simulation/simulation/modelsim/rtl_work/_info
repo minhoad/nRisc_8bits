@@ -1,0 +1,45 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\Users\darme\Desktop\pc_simulation\simulation\modelsim
+vpc
+IH<Yi^8Z66WAV4OjRdbY;V2
+V:YI67ehnYjIb4I18BbZ[Y0
+Z1 dC:\Users\darme\Desktop\pc_simulation\simulation\modelsim
+w1628732117
+8C:/Users/darme/Desktop/pc/pc.v
+FC:/Users/darme/Desktop/pc/pc.v
+L0 1
+Z2 OV;L;10.1d;51
+r1
+31
+Z3 o-vlog01compat -work work -O0
+!i10b 1
+!s100 2F1:X_k^8J8U8V^@^GmS93
+!s85 0
+!s108 1628785846.785000
+!s107 C:/Users/darme/Desktop/pc/pc.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/darme/Desktop/pc|C:/Users/darme/Desktop/pc/pc.v|
+!s101 -O0
+!s92 -vlog01compat -work work +incdir+C:/Users/darme/Desktop/pc -O0
+vpc_simulation
+!i10b 1
+!s100 :[OVzlnR=L]bno;>Ahg^c1
+IbSCQ5?LODDd]E[=T04P8H3
+VPNFe@FJW25gL?Ui]aLnEK1
+R1
+w1628785419
+8C:/Users/darme/Desktop/pc_simulation/pc_simulation.v
+FC:/Users/darme/Desktop/pc_simulation/pc_simulation.v
+L0 1
+R2
+r1
+!s85 0
+31
+!s108 1628785846.900000
+!s107 C:/Users/darme/Desktop/pc_simulation/pc_simulation.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/darme/Desktop/pc_simulation|C:/Users/darme/Desktop/pc_simulation/pc_simulation.v|
+!s101 -O0
+R3
+!s92 -vlog01compat -work work +incdir+C:/Users/darme/Desktop/pc_simulation -O0

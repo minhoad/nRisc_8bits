@@ -1,0 +1,2 @@
+Warning (10268): Verilog HDL information at registers_bank.v(18): always construct contains both blocking and non-blocking assignments
+Info (10281): Verilog HDL Declaration information at data_memory.v(6): object "Data" differs only in case from object "data" in the same scope

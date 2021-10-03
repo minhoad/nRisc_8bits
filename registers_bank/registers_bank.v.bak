@@ -1,0 +1,19 @@
+module registers_bank(Clock, RegWrite,Reg1_read, Reg2_read, Reg1_write, WriteData, Data1, Data2, Reset);
+	input Clock, RegWrite, Reset;
+	input [1:0]Reg1_read, Reg2_read, Reg1_write;
+	input [7:0]WriteData;
+	
+	output [7:0]Data1, Data2;
+	
+	reg [7:0]Memory[3:0];
+	
+	assign Data1 = Memory[Reg1_read];
+	assign Data2 = Memory[Reg2_read];
+	
+	always begin
+		@(posedge Clock)
+			if(RegWrite)
+				Memory[Reg1_Write] <= WriteData;
+	end
+		
+endmodule

@@ -1,0 +1,7 @@
+vendor_name = ModelSim
+source_file = 1, C:/Users/darme/Desktop/memory_of_instruction/memory_of_instruction.v
+source_file = 1, C:/Users/darme/Desktop/memory_of_instruction_simulation/memory_of_instruction_simulation.v
+source_file = 1, C:/Users/darme/Desktop/memory_of_instruction_simulation/db/memory_of_instruction_simulation.cbx.xml
+design_name = memory_of_instruction_simulation
+instance = comp, \a~input , a~input, memory_of_instruction_simulation, 1
+instance = comp, \b~input , b~input, memory_of_instruction_simulation, 1

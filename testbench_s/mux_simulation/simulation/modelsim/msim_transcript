@@ -1,0 +1,39 @@
+# Reading D:/quartus/modelsim_ase/tcl/vsim/pref.tcl 
+# do mux_simulation_run_msim_rtl_verilog.do 
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Copying D:\quartus\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# ** Warning: Copied D:\quartus\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini.
+#          Updated modelsim.ini.
+# 
+# vlog -vlog01compat -work work +incdir+C:/Users/darme/Desktop/mux {C:/Users/darme/Desktop/mux/mux.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module mux
+# 
+# Top level modules:
+# 	mux
+# vlog -vlog01compat -work work +incdir+C:/Users/darme/Desktop/mux_simulation {C:/Users/darme/Desktop/mux_simulation/mux_simulation.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module mux_simulation
+# 
+# Top level modules:
+# 	mux_simulation
+# 
+vsim work.mux_simulation
+# vsim work.mux_simulation 
+# Loading work.mux_simulation
+# Loading work.mux
+add wave -position end  sim:/mux_simulation/input1
+add wave -position end  sim:/mux_simulation/input2
+add wave -position end  sim:/mux_simulation/signalchoice
+add wave -position end  sim:/mux_simulation/out_put
+run
+# ** Note: $finish    : C:/Users/darme/Desktop/mux_simulation/mux_simulation.v(43)
+#    Time: 150 ps  Iteration: 0  Instance: /mux_simulation
+# 1
+# Break in Module mux_simulation at C:/Users/darme/Desktop/mux_simulation/mux_simulation.v line 43
+write format wave -window .main_pane.wave.interior.cs.body.pw.wf C:/Users/darme/Desktop/mux_simulation/simulation/modelsim/wave.do

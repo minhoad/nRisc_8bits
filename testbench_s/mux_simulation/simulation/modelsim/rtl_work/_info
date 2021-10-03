@@ -1,0 +1,45 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\Users\darme\Desktop\mux_simulation\simulation\modelsim
+vmux
+I_W85lW=al7o[A=cX8PEf[0
+V>l6Jc;b4[U3QP4zcJT^ok1
+Z1 dC:\Users\darme\Desktop\mux_simulation\simulation\modelsim
+w1630611036
+8C:/Users/darme/Desktop/mux/mux.v
+FC:/Users/darme/Desktop/mux/mux.v
+L0 1
+Z2 OV;L;10.1d;51
+r1
+31
+Z3 o-vlog01compat -work work -O0
+!i10b 1
+!s100 b6hBh9zzXNmKS0Q;YZ2NX1
+!s85 0
+!s108 1630628637.507000
+!s107 C:/Users/darme/Desktop/mux/mux.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/darme/Desktop/mux|C:/Users/darme/Desktop/mux/mux.v|
+!s101 -O0
+!s92 -vlog01compat -work work +incdir+C:/Users/darme/Desktop/mux -O0
+vmux_simulation
+!i10b 1
+!s100 n0bE=[KAeNHH8@]4NHWn53
+I70UE=@5VnTod4[5DSiJeJ1
+VfBGoF_n77668H^df^kz?K3
+R1
+w1630628520
+8C:/Users/darme/Desktop/mux_simulation/mux_simulation.v
+FC:/Users/darme/Desktop/mux_simulation/mux_simulation.v
+L0 1
+R2
+r1
+!s85 0
+31
+!s108 1630628637.747000
+!s107 C:/Users/darme/Desktop/mux_simulation/mux_simulation.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/darme/Desktop/mux_simulation|C:/Users/darme/Desktop/mux_simulation/mux_simulation.v|
+!s101 -O0
+R3
+!s92 -vlog01compat -work work +incdir+C:/Users/darme/Desktop/mux_simulation -O0

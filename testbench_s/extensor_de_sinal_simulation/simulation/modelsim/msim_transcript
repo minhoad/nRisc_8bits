@@ -1,0 +1,37 @@
+# Reading D:/quartus/modelsim_ase/tcl/vsim/pref.tcl 
+# do extensor_de_sinal_simulation_run_msim_rtl_verilog.do 
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Copying D:\quartus\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# ** Warning: Copied D:\quartus\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini.
+#          Updated modelsim.ini.
+# 
+# vlog -vlog01compat -work work +incdir+C:/Users/darme/Desktop/extensor_de_sinal {C:/Users/darme/Desktop/extensor_de_sinal/extensor_de_sinal.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module extensor_de_sinal
+# 
+# Top level modules:
+# 	extensor_de_sinal
+# vlog -vlog01compat -work work +incdir+C:/Users/darme/Desktop/extensor_de_sinal_simulation {C:/Users/darme/Desktop/extensor_de_sinal_simulation/extensor_de_sinal_simulation.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module extensor_de_sinal_simulation
+# 
+# Top level modules:
+# 	extensor_de_sinal_simulation
+# 
+vsim work.extensor_de_sinal_simulation
+# vsim work.extensor_de_sinal_simulation 
+# Loading work.extensor_de_sinal_simulation
+# Loading work.extensor_de_sinal
+add wave -position end  sim:/extensor_de_sinal_simulation/instruction_received
+add wave -position end  sim:/extensor_de_sinal_simulation/immediate
+run
+# ** Note: $finish    : C:/Users/darme/Desktop/extensor_de_sinal_simulation/extensor_de_sinal_simulation.v(21)
+#    Time: 60 ps  Iteration: 0  Instance: /extensor_de_sinal_simulation
+# 1
+# Break in Module extensor_de_sinal_simulation at C:/Users/darme/Desktop/extensor_de_sinal_simulation/extensor_de_sinal_simulation.v line 21
+write format wave -window .main_pane.wave.interior.cs.body.pw.wf C:/Users/darme/Desktop/extensor_de_sinal_simulation/simulation/modelsim/wave.do

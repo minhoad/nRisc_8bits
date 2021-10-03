@@ -1,0 +1,25 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\Users\darme\Desktop\registers_bank\simulation\modelsim
+vregisters_bank
+!i10b 1
+!s100 90@oUTS=`XQmng6kKgO6[3
+ITTVYfBi6QfTgo2KI0n@4>2
+VdjACXFKnI:i;DY[Z?@RH91
+Z1 dC:\Users\darme\Desktop\registers_bank\simulation\modelsim
+w1628731331
+8C:/Users/darme/Desktop/registers_bank/registers_bank.v
+FC:/Users/darme/Desktop/registers_bank/registers_bank.v
+L0 1
+OV;L;10.1d;51
+r1
+!s85 0
+31
+!s108 1628732173.079000
+!s107 C:/Users/darme/Desktop/registers_bank/registers_bank.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/darme/Desktop/registers_bank|C:/Users/darme/Desktop/registers_bank/registers_bank.v|
+!s101 -O0
+o-vlog01compat -work work -O0
+!s92 -vlog01compat -work work +incdir+C:/Users/darme/Desktop/registers_bank -O0

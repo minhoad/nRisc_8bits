@@ -1,0 +1,5 @@
+module memory_of_instruction_simulation(a,b);
+
+	input a,b; //inutil, isso só serve para o quartus me deixar criar o modulo de testbench
+	
+endmodule

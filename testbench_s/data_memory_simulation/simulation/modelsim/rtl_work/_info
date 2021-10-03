@@ -1,0 +1,45 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\Users\darme\Desktop\data_memory_simulation\simulation\modelsim
+vdata_memory
+IR:^^KfQ0Wd9NT:28@4okg1
+Vhb`I?;0bMPi_k?0^DDiaL2
+Z1 dC:\Users\darme\Desktop\data_memory_simulation\simulation\modelsim
+w1628817921
+8C:/Users/darme/Desktop/data_memory/data_memory.v
+FC:/Users/darme/Desktop/data_memory/data_memory.v
+L0 1
+Z2 OV;L;10.1d;51
+r1
+31
+Z3 o-vlog01compat -work work -O0
+!i10b 1
+!s100 DG5aDO80cCmm=7S]?l>HP3
+!s85 0
+!s108 1628821418.860000
+!s107 C:/Users/darme/Desktop/data_memory/data_memory.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/darme/Desktop/data_memory|C:/Users/darme/Desktop/data_memory/data_memory.v|
+!s101 -O0
+!s92 -vlog01compat -work work +incdir+C:/Users/darme/Desktop/data_memory -O0
+vdata_memory_simulation
+!i10b 1
+!s100 QMKBZOWF^ANZDEiYKo<e13
+I73gB_6b_T?RgA^3PN0:P?0
+Vd2c[OgNZ=eA7@Nh9@2NTM2
+R1
+w1628817937
+8C:/Users/darme/Desktop/data_memory_simulation/data_memory_simulation.v
+FC:/Users/darme/Desktop/data_memory_simulation/data_memory_simulation.v
+L0 1
+R2
+r1
+!s85 0
+31
+!s108 1628821418.926000
+!s107 C:/Users/darme/Desktop/data_memory_simulation/data_memory_simulation.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/darme/Desktop/data_memory_simulation|C:/Users/darme/Desktop/data_memory_simulation/data_memory_simulation.v|
+!s101 -O0
+R3
+!s92 -vlog01compat -work work +incdir+C:/Users/darme/Desktop/data_memory_simulation -O0

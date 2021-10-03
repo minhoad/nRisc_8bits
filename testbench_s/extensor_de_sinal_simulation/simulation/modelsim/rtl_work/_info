@@ -1,0 +1,45 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\Users\darme\Desktop\extensor_de_sinal_simulation\simulation\modelsim
+vextensor_de_sinal
+IaS_aBMfRm`S:0bYXC]Oh=2
+V8T::SImFSennn^>dEmCzP1
+Z1 dC:\Users\darme\Desktop\extensor_de_sinal_simulation\simulation\modelsim
+w1630627958
+8C:/Users/darme/Desktop/extensor_de_sinal/extensor_de_sinal.v
+FC:/Users/darme/Desktop/extensor_de_sinal/extensor_de_sinal.v
+L0 1
+Z2 OV;L;10.1d;51
+r1
+31
+Z3 o-vlog01compat -work work -O0
+!i10b 1
+!s100 JOVa[gd4U`mJhVWUGNX:Q3
+!s85 0
+!s108 1630628314.225000
+!s107 C:/Users/darme/Desktop/extensor_de_sinal/extensor_de_sinal.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/darme/Desktop/extensor_de_sinal|C:/Users/darme/Desktop/extensor_de_sinal/extensor_de_sinal.v|
+!s101 -O0
+!s92 -vlog01compat -work work +incdir+C:/Users/darme/Desktop/extensor_de_sinal -O0
+vextensor_de_sinal_simulation
+!i10b 1
+!s100 6zYZL3z1DcWbaUOSf2`kn0
+ILEN=XPD@[o2J<6gK4B[aI2
+VdY;kYackXd_BQzmHgGX4[2
+R1
+w1630615253
+8C:/Users/darme/Desktop/extensor_de_sinal_simulation/extensor_de_sinal_simulation.v
+FC:/Users/darme/Desktop/extensor_de_sinal_simulation/extensor_de_sinal_simulation.v
+L0 1
+R2
+r1
+!s85 0
+31
+!s108 1630628314.304000
+!s107 C:/Users/darme/Desktop/extensor_de_sinal_simulation/extensor_de_sinal_simulation.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/darme/Desktop/extensor_de_sinal_simulation|C:/Users/darme/Desktop/extensor_de_sinal_simulation/extensor_de_sinal_simulation.v|
+!s101 -O0
+R3
+!s92 -vlog01compat -work work +incdir+C:/Users/darme/Desktop/extensor_de_sinal_simulation -O0

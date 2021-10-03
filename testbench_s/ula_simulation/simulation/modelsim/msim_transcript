@@ -1,0 +1,41 @@
+# Reading D:/quartus/modelsim_ase/tcl/vsim/pref.tcl 
+# do ula_simulation_run_msim_rtl_verilog.do 
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Copying D:\quartus\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# ** Warning: Copied D:\quartus\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini.
+#          Updated modelsim.ini.
+# 
+# vlog -vlog01compat -work work +incdir+C:/Users/darme/Desktop/ula {C:/Users/darme/Desktop/ula/ula.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module ula
+# 
+# Top level modules:
+# 	ula
+# vlog -vlog01compat -work work +incdir+C:/Users/darme/Desktop/ula_simulation {C:/Users/darme/Desktop/ula_simulation/ula_simulation.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module ula_simulation
+# 
+# Top level modules:
+# 	ula_simulation
+# 
+vsim work.ula_simulation
+# vsim work.ula_simulation 
+# Loading work.ula_simulation
+# Loading work.ula
+add wave -position end  sim:/ula_simulation/clock
+add wave -position end  sim:/ula_simulation/ULAOp
+add wave -position end  sim:/ula_simulation/Dado1
+add wave -position end  sim:/ula_simulation/Dado2
+add wave -position end  sim:/ula_simulation/zero
+add wave -position end  sim:/ula_simulation/Resultado
+run
+# ** Note: $finish    : C:/Users/darme/Desktop/ula_simulation/ula_simulation.v(30)
+#    Time: 90 ps  Iteration: 0  Instance: /ula_simulation
+# 1
+# Break in Module ula_simulation at C:/Users/darme/Desktop/ula_simulation/ula_simulation.v line 30
+write format wave -window .main_pane.wave.interior.cs.body.pw.wf C:/Users/darme/Desktop/ula_simulation/simulation/modelsim/wave.do

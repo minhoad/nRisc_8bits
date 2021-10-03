@@ -1,0 +1,20 @@
+module memory_of_instruction(Clock ,Address, Instruction);
+	input Clock;
+	input [7:0]Address;
+	
+	output reg [7:0]Instruction; 
+	
+	reg [7:0]Memory[7:0];
+	integer i;
+	
+	initial begin
+		for(i=0;i<8;i++)Memory[i] = i;
+		$readmemb("instructionsinbinary.txt", Memory, 0, 7);
+	end
+	
+	always begin
+		@(negedge Clock)
+			Instruction <= Memory[Address];
+	end
+	
+endmodule

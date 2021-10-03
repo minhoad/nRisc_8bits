@@ -1,0 +1,10 @@
+module processadornrisc(input [7:0] instrucao, input [7:0] dadolido,
+                                output [7:0] pc, output [7:0] endereco, output [7:0] dadoescrito
+                                input clock, input reset,
+                                output escmem
+);
+
+wire pcwrite, jump, memwrite, ulasrc, ulaop, beq, regsrc, regwrite_;
+wire 
+
+endmodule

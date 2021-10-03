@@ -1,0 +1,17 @@
+module registers_bank_simulation();
+	reg Clock, RegWrite, Reset;
+	reg [1:0]Reg1_read, Reg2_read, Address; // Reg 1(read) Reg 2(read) Reg 1(write)
+	reg [7:0]WriteData; // Escreve dado
+	
+	wire [7:0]Data1, Data2; // Dado 1 Dado 2
+
+	registers_bank rb(Clock, RegWrite,Reg1_read, Reg2_read, Address, WriteData, Data1, Data2, Reset);
+	
+	always #10 Clock = ~Clock;
+	initial begin
+		#0 Reset = 1;
+		#0 Clock = 0;
+		#20 Reset = 0;
+	end
+	
+endmodule
